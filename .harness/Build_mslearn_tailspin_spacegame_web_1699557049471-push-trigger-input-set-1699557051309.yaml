@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mslearn_tailspin_spacegame_web_1699557049471-push-trigger-input-set
+  identifier: Build_mslearn_tailspin_spacegame_web_1699557049471pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_mslearn_tailspin_spacegame_web_1699557049471
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
